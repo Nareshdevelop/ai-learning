@@ -9,7 +9,7 @@ v = np.array([2, 1])
 transform1 = b @ v
 
 transform2 = a @ transform1 
-
+print("step by step:", transform1)
 print("step by step:", transform2)
 
 print("A @ B @ v :", (a @ b) @ v)    # shear, then rotate
