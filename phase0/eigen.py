@@ -9,3 +9,6 @@ v2 = np.array([1, -1])
 eigenvalues, eigenvectors = np.linalg.eig(M)
 print("eigenvalues:", eigenvalues)
 print("eigenvectors (as columns):\n", eigenvectors)
+
+
+print(np.linalg.eigvals(np.array([[4,1],[2,3]])))   # [5. 2.]
