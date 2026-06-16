@@ -2,7 +2,9 @@ import numpy as np
 
 # 1. THE DATA — the machine sees only these numbers, not the rule behind them
 x = np.array([1.0, 2.0, 3.0, 4.0])
-y = np.array([2.0, 4.0, 6.0, 8.0])     # hidden pattern: y = 2x  (machine must find this)
+y = np.array([2.1, 3.9, 6.2, 7.8])     # this is 2x + 1
+
+# y = np.array([2.0, 4.0, 6.0, 8.0])     # hidden pattern: y = 2x  (machine must find this)
 
 
 # 2. THE KNOBS — start at 0 (a flat, useless line)
